@@ -6,7 +6,7 @@
 \usage{
 test_file(
   path,
-  reporter = default_compact_reporter(),
+  reporter = default_reporter(),
   desc = NULL,
   package = NULL,
   ...
