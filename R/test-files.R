@@ -117,7 +117,7 @@ test_dir <- function(path,
 #' test_file(path, desc = "some tests have warnings")
 #' test_file(path, reporter = "minimal")
 test_file <- function(path,
-                      reporter = default_compact_reporter(),
+                      reporter = default_reporter(),
                       desc = NULL,
                       package = NULL,
                       ...) {
